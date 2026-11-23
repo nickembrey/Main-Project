@@ -1,3 +1,5 @@
+```mermaid
+
 # Main-Project
 classDiagram
     class Match{
@@ -78,3 +80,6 @@ classDiagram
     League "1" *-- "many" Team : manages standings
     UserFavorites "1" o-- "many" Team : tracks names
     DataManager ..> League : populates data
+
+
+```

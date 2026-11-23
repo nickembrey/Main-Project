@@ -1,7 +1,5 @@
 ```mermaid
 
-
-# Main-Project
 classDiagram
     class Match{
         -string homeTeam
